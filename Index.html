@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAP - Sistema Escolar</title>
+    <link rel="icon" href="Styles/Assets/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #24252a;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  background-color: #00cc66;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  box-shadow: 0px 0px 8px #00cc66;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+section.topo-do-site {
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1 {
+  color: black;
+  font-size: 42px;
+  line-height: 40px;
+}
+
+.topo-do-site h1 span {
+  color: black;
+}
+
+.topo-do-site p {
+  color: black;
+  margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+.lk-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00cc66;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 0cap;
+}
+
+.flex {
+  display: flex;
+}
+
+.rodape {
+  background-color: #00cc66;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+</style>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>📚 PAP - SISTEMA ESCOLAR</h1>
+            </div>
+
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+
+
+            <div class="login-button"></div>
+            <button><a href="login.php">Entrar</a></button>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>
+
+<main>
+    <section class="topo-do-site efeito-txt-topo">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>PAP SISTEMA</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                    <div class="lk-contato">
+                        <a href="">
+                            <button><a href="login.php">Entrar</a></button>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-topo-site efeito-img-topo">
+                    <img src="logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="https://github.com/mizedeveloper" target="_blank">Moises Rocha</a></p><b>
+
+    </footer>
+
+
+    <body>
+
+    </body>
+
+    </html>
