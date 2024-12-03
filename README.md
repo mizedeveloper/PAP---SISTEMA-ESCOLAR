@@ -30,4 +30,4 @@ Este projeto foi desenvolvido com **PHP**, **MySQL** e outras tecnologias, permi
 
 1. Clone o repositório para sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/pap-sistema-escolar.git
+   git clone https://github.com/mizedeveloper/PAP---SISTEMA-ESCOLAR.git
